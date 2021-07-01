@@ -1,0 +1,51 @@
+
+.normalMode{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(189, 189, 189);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 0px 10px 0px ;
+    border-radius: 7px ;
+}
+.normalMode p{
+    width: 33%;
+}
+.darkMode .normalMode{
+    color:rgb(255, 255, 255);
+    background-color: rgb(44, 44, 44);
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 0px 10px 0px ;
+    border-radius: 7px ;
+}
+.darkMode p{
+    width: 33%;
+}
+.normalContent{
+    background-color: rgb(212, 212, 212);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.darkContent {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.normalButton {
+    background-color:rgb(212, 212, 212);
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+.darkButton{
+    background-color:rgb(0, 0, 0);
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255)
+}
+h1{
+    font-weight: 230;
+}
